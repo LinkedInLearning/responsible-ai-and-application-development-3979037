@@ -1,0 +1,40 @@
+WITHOUT AUGMENTATION 
+
+-- QUickly overfits to training data!
+
+
+Epoch 1, Loss: 6.984590512107719
+Training Set Accuracy: 91.04186952288218%
+Validation Set Accuracy: 63.28125%
+Epoch 2, Loss: 0.15851719073207726
+Training Set Accuracy: 98.73417721518987%
+Validation Set Accuracy: 87.5%
+Epoch 3, Loss: 0.05146409907230219
+Training Set Accuracy: 99.90262901655306%
+Validation Set Accuracy: 83.59375%
+Epoch 4, Loss: 0.029704927626551067
+Training Set Accuracy: 99.61051606621227%
+Validation Set Accuracy: 74.21875%
+Epoch 5, Loss: 0.018237925825804416
+Training Set Accuracy: 100.0%
+Validation Set Accuracy: 84.375%
+
+
+WITH AUGMENTATION
+-- No more overfitting!
+
+Epoch 1, Loss: 4.215697697617791
+Training Set Accuracy: 78.28627069133398%
+Validation Set Accuracy: 59.375%
+Epoch 2, Loss: 0.9000361913984473
+Training Set Accuracy: 79.64946445959104%
+Validation Set Accuracy: 62.109375%
+Epoch 3, Loss: 0.4403121042432207
+Training Set Accuracy: 85.58909444985395%
+Validation Set Accuracy: 55.859375%
+Epoch 4, Loss: 0.3321010402657769
+Training Set Accuracy: 84.42064264849076%
+Validation Set Accuracy: 61.71875%
+Epoch 5, Loss: 0.31953659202113294
+Training Set Accuracy: 92.89191820837391%
+Validation Set Accuracy: 60.546875%
